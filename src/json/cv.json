@@ -1,0 +1,198 @@
+{
+    "basics": {
+      "name": "Dario Quispe Arqque",
+      "label": "Analista Funcional y Desarrollador Web Junior",
+      "image": "https://avatars.githubusercontent.com/u/106852390?v=4",
+      "email": "rubendarioqa@hotmail.com",
+      "phone": "+51 978903657",
+      "url": "",
+      "summary": "Soy un estudiante de Ingeniería de Software con una gran pasión por la tecnología y el desarrollo web. Estoy constantemente buscando oportunidades para crecer y aprender. Mi objetivo es contribuir de manera significativa en el campo de la tecnología y hacer un impacto positivo a través de mi trabajo.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Lima",
+        "countryCode": "PE",
+        "region": "Perú"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "dario-ruben-quispe-arqque-9745b5207",
+          "url": "https://www.linkedin.com/in/dario-ruben-quispe-arqque-9745b5207/"
+        },
+        {
+          "network": "GitHub",
+          "username": "Minkaspr",
+          "url": "https://github.com/Minkaspr"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "",
+        "position": "",
+        "url": "",
+        "startDate": "",
+        "endDate": null,
+        "summary": "",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "name": "",
+        "position": "",
+        "url": "",
+        "startDate": "",
+        "endDate": "",
+        "summary": "",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+        "name": "",
+        "position": "",
+        "startDate": "",
+        "endDate": "",
+        "summary": "",
+        "highlights": [
+          ""
+        ]
+      }
+    ],
+    "volunteer": [{
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }],
+    "education": [{
+      "institution": "Universidad Tecnológica del Perú",
+      "url": "https://www.utp.edu.pe/web/",
+      "area": "Ingeniero de Software",
+      "studyType": "Bachelor",
+      "startDate": "2018-03-01",
+      "endDate": "",
+      "score": "5.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "skills": [
+      {
+        "name": "HTML/XHTML",
+        "level": "Junior",
+        "keywords": ["Desarrollo Web", "Frontend", "Android"]
+      },
+      {
+        "name": "CSS",
+        "level": "Junior",
+        "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Junior",
+        "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Junior",
+        "keywords": ["Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"]
+      },
+      {
+        "name": "Java (Web/Android)",
+        "level": "Junior",
+        "keywords": ["Desarrollo Web", "Backend", "Android"]
+      },
+      {
+        "name": "MySQL",
+        "level": "Junior",
+        "keywords": ["Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"]
+      },
+      {
+        "name": "Git",
+        "level": "Junior",
+        "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      },
+      {
+        "name": "GitHub",
+        "level": "Junior",
+        "keywords": ["Control de Versiones", "Colaboración", "Código Fuente", "Git"]
+      },
+      {
+        "name": "Figma",
+        "level": "Junior",
+        "keywords": ["Diseño de UI", "Prototipado"]
+      },
+      {
+        "name": "Scrum",
+        "level": "Conocimiento",
+        "keywords": ["Metodología Ágil", "Gestión de Proyectos"]
+      },
+      {
+        "name": "Análisis Funcional",
+        "level": "Junior",
+        "keywords": ["Análisis de Requerimientos", "Documentación", "Gestión de Proyectos"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Gestión de Estudiantes",
+        "isActive": false,
+        "description": "Sistema de gestión de estudiantes en Java con almacenamiento de imágenes.",
+        "highlights": ["POO", "Polimorfismo", "Listas", "Almacenamiento de imágenes"],
+        "url": "https://github.com/Minkaspr/Estudiantes"
+      },
+      {
+        "name": "Gestión de Frutix",
+        "isActive": true,
+        "description": "Sistema de gestión para tienda de frutas en Java con roles de usuario.",
+        "highlights": ["POO", "Polimorfismo", "Listas", "Roles de usuario"],
+        "url": "https://github.com/Minkaspr/Frutix"
+      },
+      {
+        "name": "Gestión de Clínica",
+        "isActive": true,
+        "description": "Sistema de gestión para clínica en Java con AES 128 y hash para contraseñas.",
+        "highlights": ["POO", "Polimorfismo", "Listas", "AES 128", "Hash"],
+        "url": "https://github.com/Minkaspr/Clinica"
+      },
+      {
+        "name": "Pomodoro",
+        "isActive": false,
+        "description": "Aplicación móvil de productividad con diseño Material Design y audio.",
+        "highlights": ["Técnica Pomodoro", "Material Design", "Audio", "Vibración"],
+        "url": "https://github.com/Minkaspr/Pomodoro_v2"
+      },
+      {
+        "name": "Wayra",
+        "isActive": false,
+        "description": "Aplicación móvil para venta offline de pasajes con sincronización a base de datos remota.",
+        "highlights": ["Venta offline", "API en PHP", "Almacenamiento local"],
+        "url": "https://github.com/Minkaspr/wayra"
+      },
+      {
+        "name": "La Perla",
+        "isActive": false,
+        "description": "Aplicación móvil para pedidos de restaurante con SQLite.",
+        "highlights": ["Carrito de compras", "SQLite"],
+        "url": "https://github.com/MinKa01/LaPerla"
+      }
+    ]
+  }

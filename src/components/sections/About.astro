@@ -1,0 +1,12 @@
+---
+import Section from "../../components/Section.astro";
+import { basics } from "../../json/cv.json";
+
+const { summary } = basics
+---
+
+<Section title="Sobre mi">
+    <p class="text-[#666] text-xs leading-6 m-0 text-pretty">
+        {summary}
+    </p>
+</Section>

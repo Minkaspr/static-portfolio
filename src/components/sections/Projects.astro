@@ -1,0 +1,36 @@
+---
+import Section from "../../components/Section.astro";
+import { projects } from "../../json/cv.json";
+---
+
+<Section title="Proyectos">
+    <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {
+            projects.map(({ url, description, highlights, name, isActive }) => {
+                return (
+                    <li>
+                        <article class="rounded-lg border border-[#f2f2f2] gap-4 flex flex-col p-4 h-full">
+                            <header class="flex-1">
+                                <h3 class="text-[#111] hover:underline" >
+                                    <a class="mb-1" href={url} title={`Ver el proyecto ${name}`}>{name}</a>
+                                    {
+                                    isActive && <span class="text-[#3f9226]">&bull;</span>
+                                }
+                                </h3>
+                                
+                                <p class="text-xs leading-5 mb-1 ">{description}</p>
+                            </header>
+                            <footer class="flex flex-wrap gap-1 text-sm">
+                                
+                                    {highlights.map((highlight) => {
+                                        return <span class="rounded-md bg-[#eee] text-[#444] text-xs font-medium py-1 px-3">{highlight}</span>;
+                                    })}
+                                
+                            </footer>
+                        </article>
+                    </li>
+                );
+            })
+        }
+    </ul>
+</Section>

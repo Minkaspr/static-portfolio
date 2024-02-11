@@ -1,0 +1,45 @@
+---
+import Section from "../../components/Section.astro";
+
+import { work } from "../../json/cv.json";
+---
+
+<Section title="Experience">
+    <ul  class="flex flex-col gap-8">
+        {
+            work.map(
+                ({
+                    name,
+                    startDate,
+                    endDate,
+                    position,
+                    summary,
+                    highlights,
+                }) => {
+                    const startYear = new Date(startDate).getFullYear();
+                    const endYear =
+                        endDate != null
+                            ? new Date(endDate).getFullYear()
+                            : "Actual";
+                    const years = `${startYear} - ${endYear}`;
+                    return (
+                        <li>
+                            <article>
+                                <header class="flex justify-between items-center mb-1">
+                                    <div>
+                                        <h3 class="text-lg font-bold text-[#111]">{name}</h3>
+                                        <h4 class="text-base font-medium text-[#222]">{position}</h4>
+                                    </div>
+                                    <time class="text-sm text-[#555]">{years}</time>
+                                </header>
+                                <footer>
+                                    <p>{summary}</p>
+                                </footer>
+                            </article>
+                        </li>
+                    );
+                },
+            )
+        }
+    </ul>
+</Section>
